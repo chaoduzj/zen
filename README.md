@@ -25,7 +25,7 @@ Zen is an open-source system-wide ad-blocker and privacy guard for Windows, macO
 
 ## Downloads
 
-During the first run, Zen will prompt you to install a root certificate. This is required for Zen to be able to intercept and modify HTTPS requests. This certificate is generated locally and never leaves your device.
+During the first run, Zen will prompt you to install a root certificate. This is required for Zen to be able to intercept and modify HTTPS requests. This certificate is generated locally and never leaves your device. For details on how this works and the steps we take to secure it, see our [security architecture](/docs/internal/security-architecture.md).
 
 ### Windows
 
@@ -40,6 +40,14 @@ Unsure which version to download? Click on 'Start' and type 'View processor info
 - ARM64 (Apple Silicon): [💾 Installer](https://github.com/ZenPrivacy/zen-desktop/releases/latest/download/Zen-arm64.dmg) | [📦 Portable](https://github.com/ZenPrivacy/zen-desktop/releases/latest/download/Zen_darwin_arm64.tar.gz)
 
 Unsure which version to download? Learn at [Apple's website](https://support.apple.com/en-us/HT211814).
+
+#### 🍺 Homebrew
+
+Zen is available via [Homebrew](https://formulae.brew.sh/cask/zen-privacy) for both Intel and Apple Silicon. To install it, run:
+
+```bash
+brew install --cask zen-privacy
+```
 
 ### Linux
 
